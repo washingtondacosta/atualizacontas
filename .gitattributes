@@ -1,0 +1,3 @@
+$ cat .gitattributes
+dist/* linguist-vendored
+PHP linguist-vendored=true
