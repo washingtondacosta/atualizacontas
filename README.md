@@ -1,37 +1,38 @@
 # Atualizacontas
 
-##Sistema para atualizar contas
+##System for updating accounts
 
-#1 MOTIVAÇÃO#
+#1 MOTIVATION #
 
-Este sistema web foi desenvolvido por mim, Washington da Costa Silva. E sua principal finalidade é servir como ferramenta de atualização de faturas de energia para constestação aos orgãos de proteção ao consumidor.
+This web system was developed by me, Washington da Costa Silva. The main thing is to serve as a power bill update tool for consumer protection.
 
-Requisitos do projeto:
-- a) Persistência dos registros em arquivo.
-- b) Cadastro de clientes de forma simplificada.
-- c) Listagem de faturas por cliente cadastrado.
-- d) Ordenação de faturas por ordem descrescente.
-- e) Permitir editar faturas cadastradas.
-- f) Permitir excluir faturas.
-- g) Realizar a atualização de valores seguindo regra de calculo personalizada.
+Project Requirements:
+a) Persistence of records on file.
+b) Registration of customers in a simplified manner.
+c) Listing of invoices by registered customer.
+d) Ordering invoices in descending order.
+e) Allow to edit registered invoices.
+f) Allow to delete invoices.
+g) Perform a value update according to the custom calculation rule.
 
-#2 SOBRE A APLICAÇÃO DESENVOLVIDA#
 
-Foi utilizada a linguagem de programação PHP, juntamente com os frameworks de front-end: Bootstrap v3.3.7 e back-end CodeIgniter v3.1.2 (última versão disponível), aliados ao uso da linguagem de marcação de folhas de estilos CSS 3, HTML5, além do uso de trechos em JQuery. O layout da aplicação levou em consideração o conceito de mobile-first, já primariamente dotado pelo framework bootstrap, assim como a diagramação das páginas através do sistema de grids adotado pelo mesmo. Tornando assim o sistema responsivo e adaptado aos mais variados tamanhos de resolução. Através do CodeIgniter foi utilizado o padrão de arquitetura MVC (Model-View-Controler) para as entidades de clientes e faturas. O arquivo com os registros realizados pelo sistema pode ser encontrado dentro do diretório raiz da aplicação dados/registros.db, as demais pastas principais estão na pasta application (ex: controllers,models e views).
+#2 ABOUT DEVELOPED APPLICATION #
 
-#2.1 Sobre as funcionalidades#
+PHP programming language was used, along with the front end frameworks: Bootstrap v.3.3.7 and backend CodeIgniter v3.1.2, allied to the use of the style sheet markup language CSS 3, HTML5, plus the use of JQuery snippets. The layout of the application took into account the concept of mobile-first, already provided by the bootstrap framework, as well as a page layout through the grid system adopted by it. Making the system more adapted and adapted to the most varied resolution sizes. CodeIgniter used the MVC (Model-View-Controler) architecture standard for customer and invoice entities. The file with registers made by the system can be found inside the root directory of the data / registros.db application, like other main folders in mass applications (eg controllers, models and views).
 
-O acesso as funcionalidades principais do sistema é provido através da view faturas/index, como: adicionar, listar, excluir, editar. A view. 
+#2.1 About how #
 
-#2.1.1 Funcionalidades Adicionais#
+Access to the system's main faculties is provided by viewing faturas / index such as: add, list, delete, edit. A view. 
 
-Foram adicionadas algumas funcionalidades como geração de relatórios de faturas, demonstrando o uso de responsive utilities do framework Bootstrap, no qual é possível diferenciar as informações que serão usadas em momento de impressão e as informações visualizadas em tela. 
+#2.1.1 Features #
 
-#4 CONSIDERAÇÕES#
+There were some features like invoice reporting, demonstrating the use of responsive features of the Bootstrap framework, no longer differentiable as those that are part of print time and as the information viewed on screen. 
 
-O cliente validou o projeto tendo assim atendido as expectativas e requisitos.
+#4 CONSIDERATIONS#
 
-_**Buscando sempre a satisfação de vencer desafios, encontrei na área de T.I. a minha vocação para contribuir com a sociedade de forma plena e objetiva.**_
+The client validated the project and thus met the expectations and requirements.
+
+_**Always seeking the satisfaction to overcome challenges, I found in the field of I.T. my vocation to contribute to society fully and objectively..**_
 
 
 <right>Washington da Costa Silva</right>
