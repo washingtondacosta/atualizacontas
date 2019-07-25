@@ -1,0 +1,22 @@
+#rodape {
+	background-color: #4B4B4D;
+	color: white;
+	padding: 20px;
+}
+
+.jumbotron {
+	background-color: #D6E4EC;
+}
+
+.alturafull {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#tcentro {
+	text-align: center;
+}
+
+.recuo {
+	text-indent: 4em
+}
